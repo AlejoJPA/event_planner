@@ -1,6 +1,6 @@
 import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
-import './Footer.jsx';
+import './Footer'; // Import footer
 const EventPlanner = () => {
     /* EventPlanner provides a static list of events (not responsive to user interaction) and a contact section (requiring user iteraction).
      EventPlanner defines several sections (i.e. description, events_categories, features, testimonials,contact)
