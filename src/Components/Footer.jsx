@@ -3,7 +3,7 @@ const Footer = () => {
     return (
         <>
         <footer>
-            <p>ALEJO-Event-Planner Organization. All rights reserved. </p>
+            <p>&copy; ALEJO-Event-Planner Organization. All rights reserved. </p>
         </footer>
         </>
 )}

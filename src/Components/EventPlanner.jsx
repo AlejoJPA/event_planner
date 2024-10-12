@@ -1,6 +1,6 @@
 import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
-import './Footer'; // Import footer
+import Footer from './Footer'; // Import footer
 const EventPlanner = () => {
     /* EventPlanner provides a static list of events (not responsive to user interaction) and a contact section (requiring user iteraction).
      EventPlanner defines several sections (i.e. description, events_categories, features, testimonials,contact)
@@ -98,7 +98,7 @@ const EventPlanner = () => {
                     <button className='submit-button'>Send</button>
                 </form>
             </section>
-            
+            <Footer/>
         </div>
     );
     
