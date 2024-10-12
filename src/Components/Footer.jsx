@@ -1,4 +1,4 @@
-import React from 'recat';
+import React from 'react';
 const Footer = () =>{
     retur (
         <footer>
