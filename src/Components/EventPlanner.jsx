@@ -4,7 +4,7 @@ import './EventPlanner.css'; // Import CSS file for styling
 const EventPlanner = () => {
     /* EventPlanner provides a static list of events (not responsive to user interaction) and a contact section (requiring user iteraction).
      EventPlanner defines several sections (i.e. description, events_categories, features, testimonials,contact)
-     with categories including lists of unsorted (ul) and sorted (li) items. At last EventPlanner provides user iteraction. 
+     with categories including lists of unsorted (ul) and sorted (li) items. At last EventPlanner provides user iteraction with a form. 
      */
     return (
 
@@ -89,7 +89,15 @@ const EventPlanner = () => {
                 </div>
             </section>
 
-            <section className = 'contact'></section>
+            <section className = 'contact'>
+                <h2>Contact Us</h2>
+                <form> 
+                    <input type='text' placeholder='Name'/>
+                    <input type='email' placeholder='Email'/>
+                    <textarea placeholder='Message'></textarea>
+                    <button className='submit-button'>Send</button>
+                </form>
+            </section>
         </div>
     );
     
