@@ -2,7 +2,7 @@ import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
 
 const EventPlanner = () => {
-    <>
+    
     return (
 
         <div className="event-planner-container">
@@ -17,15 +17,13 @@ const EventPlanner = () => {
                 </p>
                 <button className = 'get-started-button'>Get Started</button>
             </section>
-            <section className = 'events_categories'> </section>
-            <section className = 'features'> </section>
-            <section className = 'testimonials'> </section>
-            <section className = 'contact'> </section>
+            <section className = 'events_categories'></section>
+            <section className = 'features'></section>
+            <section className = 'testimonials'></section>
+            <section className = 'contact'></section>
         </div>
-
-
     );
-    </>
+    
 };
 
 export default EventPlanner;
